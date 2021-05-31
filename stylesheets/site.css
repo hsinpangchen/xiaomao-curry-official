@@ -45,10 +45,12 @@ body {
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
+  display:none;
 }
 .cover img{
   width:100%;
 }
+
 
 
 /* nav menu */
@@ -119,6 +121,48 @@ body {
     transform: rotate(-45deg);
 }
 
+#event{
+  background-color: #D3AD8D;
+  padding: 30px 30px;
+}
+
+
+
+
+#event h2{
+
+  font-size: 5em;
+  font-weight: 800;
+}
+#event img{
+}
+
+#event div.left{
+  text-align: right;
+}
+#event div.right img{
+  margin-left:60px;
+}
+
+
+#event p{
+  width: 60%;
+  text-align: left;
+  margin-left:250px;
+  margin-top:-50px;
+  line-height: 1.8em;
+}
+
+
+#event p a{
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 /* news */
 #news{
@@ -149,7 +193,7 @@ body {
 #news p.item_text{
   width: 500px;
   word-wrap: break-word;
-  line-height: 150%;
+  line-height: 1.6em;
 }
 
 /* intro */
@@ -408,6 +452,11 @@ p.small{
 	.footer-items {
 		width: 100%;
 	}
+  #event p{
+    text-align: center;
+    width: 80%;
+    margin:-50px 0px 100px 60px;
+  }
 }
 
 /* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
