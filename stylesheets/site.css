@@ -604,5 +604,10 @@ div.image{
       margin:20px 0px;
     }
 
+    #frozen_food ul{
+      margin:0;
+      padding: 0;
+    }
+
 
 }
