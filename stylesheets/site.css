@@ -568,4 +568,41 @@ div.image{
   }
 
 
+
+}
+
+/* https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #frozen_food img.stayhome{
+      width: 300px;
+    }
+
+    #event h2{
+      width: 300px;
+      font-size: 3em;
+    }
+
+    #event p{
+      margin:25px 50px;
+
+    }
+
+    #news p.item_text{
+      width: 280px;
+
+    }
+
+    #daily{
+      padding: 10px 20px;
+    }
+    #daily .dailyContent{
+      margin:20px 0px;
+    }
+
+
 }
