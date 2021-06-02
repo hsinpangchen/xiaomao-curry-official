@@ -24,6 +24,17 @@ body {
   height: 90px;
   padding-top:20px
 }
+
+a.standard{
+  text-decoration: none;
+  color: #B69A7C;
+  font-weight: 800;
+}
+
+#logo{
+  width: 100px;
+}
+
 #menu_link{
   padding-top: 50px;
 }
@@ -335,6 +346,48 @@ p.small{
   padding: 50px 50px;
 }
 
+
+#frozen_food{
+  background-color:#AFB67C;
+  padding: 100px 0px;
+}
+
+#frozen_food p{
+  line-height: 2em;
+}
+
+div.frozen_food_bar{
+  background-color: black;
+  color: white;
+  padding: 5px 5px;
+
+}
+div.frozen_food_bar img{
+  float: left;
+  margin:10px 10px;
+}
+
+div.frozen_food_bar p{
+  margin: 15px 15px;
+}
+
+div.frozen_food_bar span{
+  float:right;
+}
+
+#frozen_food li{
+  list-style-type: none;
+  padding: 10px 0px;
+}
+
+#frozen_food li span{
+  float: right;
+}
+
+div.image{
+  text-align: center;
+}
+
 /* footer */
 
 /* FOOTER */
@@ -444,6 +497,7 @@ p.small{
 	.footer-items {
 		width: 50%;
 	}
+
 }
 
 /* for mobile screen view */
@@ -457,6 +511,16 @@ p.small{
     width: 80%;
     margin:-50px 0px 100px 60px;
   }
+
+  div.frozen_food_bar{
+    background-color: black;
+
+  }
+
+  #frozen_food{
+    padding: 100px 40px;
+  }
+
 }
 
 /* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
@@ -475,6 +539,7 @@ p.small{
       text-align: left;
 
   }
+
 
   #menu_link{
     padding-top: 0px;
@@ -497,4 +562,10 @@ p.small{
     float: none;
     margin: 10px 5px;
   }
+
+  #frozen_food{
+    padding: 100px 40px;
+  }
+
+
 }
