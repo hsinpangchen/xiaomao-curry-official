@@ -491,6 +491,12 @@ div.image{
 	text-align: center;
 }
 
+a.fb{
+  color:#fff;
+  text-decoration: none;
+  font-size:0.8em;
+}
+
 /* for tablet mode view */
 
 @media screen and (max-width: 1275px) {
@@ -608,6 +614,4 @@ div.image{
       margin:0;
       padding: 0;
     }
-
-
 }
