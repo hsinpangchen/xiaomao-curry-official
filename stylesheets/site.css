@@ -48,6 +48,12 @@ a.standard{
 }
 
 
+li.current a{
+  background-color: #fbc547;
+  color: white;
+  font-weight: bold;
+}
+
 
 /* cover */
 
@@ -497,6 +503,32 @@ a.fb{
   font-size:0.8em;
 }
 
+#limited_edition div{
+  margin-top: 20px;
+}
+#limited_edition ul li{
+  float: left;
+  display: inline;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+#limited_edition li img{
+  border-radius: 19px;
+}
+
+#limited_edition .small{
+  color:black;
+}
+
+#limited_edition img{
+  border-radius: 25%;
+}
+
+#limited_edition p{
+  line-height: 150%;
+}
+
+
 /* for tablet mode view */
 
 @media screen and (max-width: 1275px) {
@@ -613,5 +645,9 @@ a.fb{
     #frozen_food ul{
       margin:0;
       padding: 0;
+    }
+
+    #limited_edition{
+      padding: 10px 20px;
     }
 }
