@@ -528,6 +528,20 @@ a.fb{
   line-height: 150%;
 }
 
+#concept h3{
+  padding:20px 20px;
+  background-color: #D3AD8D;
+  font-size: 1em;
+  border-radius: 4px;
+}
+
+#concept p{
+  padding: 10px 0px;
+  line-height: 1.5em;
+}
+
+
+
 
 /* for tablet mode view */
 
