@@ -43,13 +43,15 @@ a.standard{
 }
 
 .pure-menu-item a:hover{
-  background-color: #fbc547;
+  /* background-color: #fbc547; */
+  background-color: #F16921;
   color: white;
 }
 
 
 li.current a{
-  background-color: #fbc547;
+  /* background-color: #fbc547; */
+  background-color: #F16921;
   color: white;
   font-weight: bold;
 }
@@ -315,15 +317,9 @@ p.small{
 
 #daily{
 
-  padding: 30px 0px 100px 0px;
+  /* padding: 30px 0px 100px 0px; */
 }
 
-#daily span{
-  background-color: orange;
-  border-radius: 20px;
-  padding: 10px 10px;
-  font-size: 0.8em;
-}
 
 #daily .schedule{
   padding: 15px 0px;
@@ -598,6 +594,24 @@ a.fb{
 
 }
 
+#daily h3{
+  background-color: #F16921;
+  padding: 15px 10px;
+}
+#daily ul{
+  padding: 0
+}
+#daily li{
+  padding: 15px 10px;
+  background-color: #F5F5F5;
+  list-style-type:none;
+  margin: 15px 0px;
+  border-radius: 6px;
+}
+
+#daily li span{
+  float: right;
+}
 /* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
 
 /* Thanks to Computer Conversations */
