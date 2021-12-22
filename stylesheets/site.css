@@ -612,6 +612,10 @@ a.fb{
 #daily li span{
   float: right;
 }
+#daily li b.spicy{
+  font-size:0.8em;
+  color:red;
+}
 /* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
 
 /* Thanks to Computer Conversations */
@@ -701,4 +705,25 @@ a.fb{
     #limited_edition{
       padding: 10px 20px;
     }
+}
+
+
+.call_action{
+  width: 120px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #F16921;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  box-shadow: 0px 5px 20px #666666;
+  padding-left:10px;
+  padding-top:8px;
+}
+
+.call_action p{
+  float:right;
+  margin-top:2px;
+  padding-right:20px;
+  color:white;
 }
