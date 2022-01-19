@@ -616,6 +616,11 @@ a.fb{
   font-size:0.8em;
   color:red;
 }
+
+b.new_listing{
+  font-size:0.8em;
+  color:orange;
+}
 /* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
 
 /* Thanks to Computer Conversations */
