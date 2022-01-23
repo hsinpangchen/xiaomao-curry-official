@@ -155,6 +155,7 @@ li.current a{
   font-weight: 800;
 }
 #event img{
+
 }
 
 #event div.left{
@@ -183,6 +184,54 @@ li.current a{
   margin-left: 10px;
   margin-right: 10px;
 }
+
+#event img.left{
+  text-align: left;
+}
+
+#delivery{
+  background-color: #D3AD8D;
+  line-height: 2em;
+}
+
+#delivery a{
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 2em;
+}
+#delivery h2{
+  padding: 0px 20px 0px 20px
+}
+#delivery p{
+  padding: 0px 20px 0px 20px
+}
+
+#business_customer{
+  margin: 30px 0px 30px 0px;
+}
+#business_customer{
+  text-align: center
+}
+
+#business_customer_list{
+  background: #F5F5F5;
+}
+/* #business_customer_list div{
+  text-align: center;
+  margin:30px 0px;
+} */
+
+#business_customer_list li{
+  list-style-type: none;
+  float:left;
+  margin:30px 30px;
+}
+
 
 /* news */
 #news{
