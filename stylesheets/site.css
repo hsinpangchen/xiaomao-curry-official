@@ -666,6 +666,11 @@ a.fb{
   color:red;
 }
 
+#daily li a{
+  text-decoration: none;
+  display: block;
+}
+
 b.new_listing{
   font-size:0.8em;
   color:orange;
@@ -747,6 +752,12 @@ b.new_listing{
     #daily{
       padding: 10px 20px;
     }
+    #daily ul a{
+      text-decoration: none;
+      background-color: red;
+      color:#336699;
+    }
+
     #daily .dailyContent{
       margin:20px 0px;
     }
@@ -780,4 +791,34 @@ b.new_listing{
   margin-top:2px;
   padding-right:20px;
   color:white;
+}
+
+
+#menu_item{
+  background-color: #D3AD8D;
+  padding: 50px 30px;
+}
+#menu_item{
+
+}
+
+#menu_item h2{
+
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+#menu_item h2 span{
+  float: right;
+  font-size: 2em;
+  margin-top:-20px;
+}
+
+#menu_item span b{
+  font-size:0.3em;
+  padding-left: 5px;
+}
+
+#menu_item p{
+
+  margin-left: 10px;
 }
