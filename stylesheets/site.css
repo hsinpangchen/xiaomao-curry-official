@@ -665,6 +665,10 @@ a.fb{
   font-size:0.8em;
   color:red;
 }
+#daily li b.vege{
+  font-size:0.8em;
+  color:green;
+}
 
 #daily li a{
   text-decoration: none;
