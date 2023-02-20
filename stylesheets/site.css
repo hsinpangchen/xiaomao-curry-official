@@ -669,6 +669,10 @@ a.fb{
   font-size:0.8em;
   color:green;
 }
+#daily li b.limited_edition{
+  font-size:0.8em;
+  color:orange;
+}
 
 #daily li a{
   text-decoration: none;
