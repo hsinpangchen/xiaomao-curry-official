@@ -7,21 +7,21 @@
     <meta name="facebook-domain-verification" content="mjvyn9nvqs1irffupe8st0ip6djr58" />
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>笑貓咖哩-加入我們</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180-precomposed.png?v=1713337762">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png?v=1713337762">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png?v=1713337762">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png?v=1713337762">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png?v=1713337762">
-    <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png?v=1713337762">
-    <link rel="shortcut icon" href="/favicon.png?v=1713337762">
-    <link rel="icon" type="image/ico" href="/favicon.ico?v=1713337762">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180-precomposed.png?v=1713338062">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png?v=1713338062">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png?v=1713338062">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png?v=1713338062">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png?v=1713338062">
+    <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png?v=1713338062">
+    <link rel="shortcut icon" href="/favicon.png?v=1713338062">
+    <link rel="icon" type="image/ico" href="/favicon.ico?v=1713338062">
     <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css"> -->
     <link href='https://fonts.googleapis.com/css?family=Catamaran:400,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='/stylesheets/site.css?v=1713337762' rel='stylesheet' type='text/css'>
+    <link href='/stylesheets/site.css?v=1713338062' rel='stylesheet' type='text/css'>
     <link href="/stylesheets/site.css" rel="stylesheet" />
     <script src="/javascripts/site.js"></script>
 
@@ -44,26 +44,23 @@
     /></noscript>
     <!-- End Facebook Pixel Code -->
 
-    <script>
-    function gtag_report_conversion(url) {
-      var callback = function () {
-        if (typeof(url) != 'undefined') {
-          window.location = url;
-        }
-      };
-      gtag('event', 'conversion', {
-          'send_to': 'AW-11059841364/y7JpCNjs65sYENSS35kp',
-          'event_callback': callback
-      });
-      return false;
-    }
-    </script>
 
+    <script>
+    window.addEventListener('load', function(event) {
+        document.querySelectorAll('a[href*="tel"]').forEach(function(e) {
+            e.addEventListener('click', function() {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-11059841364/y7JpCNjs65sYENSS35kp'
+                });
+            });
+        });
+    });
+    </script>
 
     <script type="text/javascript">
       function call_phone_number(){
         fbq('track', 'Contact', {});
-        gtag_report_conversion('tel:0287710448')
+        //gtag_report_conversion('tel:0287710448')
       }
     </script>
 
@@ -203,7 +200,7 @@
 <!--   FOOTER END -->
 
 
-      <a href="tel:0287710448" class="call_action" onclick="call_phone_number()">
+      <a href="tel:0287710448" class="call_action">
         <img src="../images/phone-call.png" alt="" width="20">
          <p>撥打電話</p>
       </a>
