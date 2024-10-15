@@ -678,6 +678,10 @@ a.fb{
   text-decoration: none;
   display: block;
 }
+#daily li.block{
+  background-color: black;
+  color:#fff;
+}
 
 b.new_listing{
   font-size:0.8em;
