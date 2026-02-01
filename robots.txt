@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xiaomao.com.tw/sitemap.xml
