@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /*.ipa$
+Disallow: /*.plist$
 Sitemap: https://xiaomao.com.tw/sitemap.xml
