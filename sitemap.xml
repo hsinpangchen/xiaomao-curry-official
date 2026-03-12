@@ -5,9 +5,6 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 >
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
 <url>
   <loc>https://xiaomao.com.tw/</loc>
   <lastmod>2026-02-01T00:00:00+08:00</lastmod>
@@ -29,6 +26,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://xiaomao.com.tw/blog/</loc>
+  <lastmod>2026-03-11T00:00:00+08:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://xiaomao.com.tw/careers.html</loc>
   <lastmod>2026-02-01T00:00:00+08:00</lastmod>
   <priority>0.80</priority>
@@ -43,6 +45,9 @@
   <lastmod>2026-02-01T00:00:00+08:00</lastmod>
   <priority>0.64</priority>
 </url>
-
-
+<url>
+  <loc>https://xiaomao.com.tw/blog/first-time-order-guide/</loc>
+  <lastmod>2026-03-11T00:00:00+08:00</lastmod>
+  <priority>0.72</priority>
+</url>
 </urlset>
