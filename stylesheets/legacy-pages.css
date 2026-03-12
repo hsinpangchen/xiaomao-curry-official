@@ -1,0 +1,328 @@
+#event {
+  background-color: #d3ad8d;
+  padding: 30px;
+  margin-top: -5px;
+}
+
+#event h2 {
+  font-size: 2.4em;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+#event div.left {
+  text-align: left;
+}
+
+#event div.right img {
+  margin-left: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#event p {
+  width: auto;
+  margin: 12px 0 0;
+  text-align: left;
+  line-height: 1.8em;
+}
+
+#event p a {
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+#event img.left {
+  text-align: left;
+}
+
+#delivery {
+  background-color: #d3ad8d;
+  line-height: 2em;
+}
+
+#delivery a {
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 10px;
+  margin: 0 10px;
+  line-height: 2em;
+}
+
+#delivery h2,
+#delivery p {
+  padding: 0 20px;
+}
+
+#business_customer {
+  margin: 30px 0;
+  text-align: center;
+}
+
+#business_customer_list {
+  background: #f5f5f5;
+}
+
+#business_customer_list li {
+  float: left;
+  margin: 30px;
+  list-style-type: none;
+}
+
+#news {
+  margin: 50px 0;
+}
+
+#news h2 {
+  padding: 0;
+  text-align: center;
+}
+
+#news ul {
+  list-style-type: none;
+}
+
+#news p {
+  display: block;
+  margin: 10px 0;
+  font-size: 0.9em;
+}
+
+#news p.item_date {
+  font-weight: bold;
+}
+
+#news p.item_text {
+  width: auto;
+  max-width: 100%;
+  word-wrap: break-word;
+  line-height: 1.6em;
+}
+
+#intro {
+  margin-top: 60px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+#intro img {
+  width: 200px;
+  border-radius: 100px;
+}
+
+#intro p.title {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+#intro a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#concept h3 {
+  padding: 20px;
+  background-color: #d3ad8d;
+  font-size: 1em;
+  border-radius: 4px;
+}
+
+#concept p {
+  padding: 10px 15px;
+  line-height: 1.5em;
+}
+
+#concept img {
+  width: 100%;
+}
+
+#daily h3 {
+  background-color: #f16921;
+  padding: 15px 10px;
+}
+
+#daily ul {
+  padding: 0;
+}
+
+#daily li {
+  padding: 15px 10px;
+  margin: 15px 0;
+  list-style-type: none;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+}
+
+#daily li span {
+  float: right;
+}
+
+#daily li b.spicy {
+  font-size: 0.8em;
+  color: red;
+}
+
+#daily li b.vege {
+  font-size: 0.8em;
+  color: green;
+}
+
+#daily li a {
+  display: block;
+  text-decoration: none;
+}
+
+#daily li.block {
+  background-color: black;
+  color: #fff;
+}
+
+#limited_edition div {
+  margin-top: 20px;
+}
+
+#limited_edition ul li {
+  float: left;
+  display: inline;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#limited_edition li img {
+  border-radius: 19px;
+}
+
+#limited_edition .small {
+  color: black;
+}
+
+#limited_edition img {
+  border-radius: 25%;
+}
+
+#limited_edition p {
+  line-height: 150%;
+}
+
+#frozen_food {
+  background-color: #d3ad8d;
+  padding: 50px 0;
+}
+
+#frozen_food h2 {
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+}
+
+#frozen_food p {
+  line-height: 2em;
+}
+
+#frozen_food li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+#frozen_food li span {
+  float: right;
+}
+
+@media (min-width: 48em) {
+  #event h2 {
+    font-size: 5em;
+  }
+
+  #event div.left {
+    text-align: right;
+  }
+
+  #event div.right img {
+    margin-left: 60px;
+  }
+
+  #event p {
+    width: 60%;
+    margin-top: 12px;
+    margin-left: 250px;
+  }
+
+  #news h2 {
+    padding: 0 0 0 140px;
+  }
+
+  #news p {
+    float: left;
+    margin: 10px 20px;
+  }
+
+  #news p.item_text {
+    width: 500px;
+  }
+}
+
+@media (max-width: 48em) {
+  #news h2 {
+    float: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  #news p.item_date {
+    margin-top: 30px;
+  }
+
+  #news p {
+    float: none;
+    margin: 10px 5px;
+  }
+}
+
+@media (max-width: 660px) {
+  #event h2 {
+    font-size: 2.2em;
+    text-align: center;
+  }
+
+  #event div.left {
+    text-align: center;
+  }
+
+  #event p {
+    width: 100%;
+    margin: 12px 0 0;
+    text-align: left;
+  }
+
+  #event div.right img {
+    display: block;
+    margin: 20px auto 0;
+  }
+
+  #daily {
+    padding: 10px 20px;
+  }
+
+  #daily ul a {
+    color: #336699;
+  }
+
+  #limited_edition {
+    padding: 10px 20px;
+  }
+
+  #frozen_food {
+    padding: 100px 40px;
+  }
+
+  #frozen_food ul {
+    margin: 0;
+    padding: 0;
+  }
+}

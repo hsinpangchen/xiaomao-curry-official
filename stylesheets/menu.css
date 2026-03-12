@@ -1,0 +1,251 @@
+.menu-page {
+  padding: 28px 20px 90px;
+  background:
+    radial-gradient(circle at top right, rgba(255, 219, 190, 0.42), transparent 24%),
+    linear-gradient(180deg, #fffdf9 0%, #f7efe7 100%);
+}
+
+.menu-shell {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.menu-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+  gap: 30px;
+  align-items: stretch;
+  margin-bottom: 28px;
+}
+
+.menu-hero-copy,
+.menu-sheet {
+  padding: 34px;
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.84);
+  border: 1px solid rgba(224, 209, 195, 0.92);
+  box-shadow: 0 20px 42px rgba(93, 55, 31, 0.07);
+}
+
+.menu-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+  color: #9d4c1f;
+  font-size: 0.82em;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+.menu-kicker::before {
+  content: "";
+  width: 28px;
+  height: 1px;
+  background: rgba(157, 76, 31, 0.42);
+}
+
+.menu-hero-copy h2 {
+  margin: 0 0 16px;
+  color: #201713;
+  font-size: 3.3em;
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+}
+
+.menu-intro {
+  max-width: 34em;
+  margin: 0 0 24px;
+  color: #5f5046;
+  line-height: 1.9em;
+}
+
+.menu-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.menu-meta-card {
+  padding: 16px 18px;
+  border-radius: 20px;
+  background: #fff8f2;
+  border: 1px solid rgba(224, 209, 195, 0.92);
+}
+
+.menu-meta-card span {
+  display: block;
+  margin-bottom: 6px;
+  color: #9d4c1f;
+  font-size: 0.76em;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.menu-meta-card strong,
+.menu-meta-card a {
+  color: #201713;
+  font-size: 1em;
+  line-height: 1.65;
+  text-decoration: none;
+}
+
+.menu-hero-visual {
+  margin-bottom: 28px;
+  overflow: hidden;
+  border-radius: 34px;
+  background: linear-gradient(145deg, #f7d7bc 0%, #f18943 54%, #f7b069 100%);
+  box-shadow: 0 28px 60px rgba(93, 55, 31, 0.12);
+}
+
+.menu-hero-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.menu-sheet {
+  display: grid;
+  gap: 28px;
+}
+
+.menu-group {
+  display: grid;
+  gap: 14px;
+}
+
+.menu-group-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.menu-group-header h3 {
+  margin: 0;
+  color: #201713;
+  font-size: 1.9em;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.menu-group-header p {
+  margin: 0;
+  color: #75655a;
+  font-size: 0.94em;
+}
+
+.menu-items {
+  display: grid;
+  gap: 12px;
+}
+
+.menu-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  padding: 16px 18px;
+  border-radius: 20px;
+  background: #fff8f2;
+  border: 1px solid rgba(224, 209, 195, 0.92);
+}
+
+.menu-item-main {
+  min-width: 0;
+}
+
+.menu-item-name {
+  display: inline;
+  color: #201713;
+  font-size: 1.04em;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.menu-badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.menu-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 0 10px;
+  border-radius: 999px;
+  font-size: 0.76em;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.menu-badge-spicy {
+  background: #fde8e4;
+  color: #b54b2f;
+}
+
+.menu-badge-vege {
+  background: #eaf5e7;
+  color: #48783f;
+}
+
+.menu-badge-new {
+  background: #fff0c9;
+  color: #9a6211;
+}
+
+.menu-item-price {
+  color: #231a16;
+  font-size: 1em;
+  font-weight: 800;
+  white-space: nowrap;
+  align-self: start;
+}
+
+@media screen and (max-width: 1020px) {
+  .menu-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-hero-visual img {
+    max-height: 520px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .menu-page {
+    padding: 18px 16px 70px;
+  }
+
+  .menu-hero-copy,
+  .menu-sheet {
+    padding: 24px 20px;
+    border-radius: 26px;
+  }
+
+  .menu-hero-copy h2 {
+    font-size: 2.4em;
+  }
+
+  .menu-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .menu-item-price {
+    white-space: normal;
+  }
+
+  .menu-group-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
