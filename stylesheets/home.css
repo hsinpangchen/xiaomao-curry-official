@@ -417,8 +417,16 @@
 .home-update-copy strong {
   display: block;
   margin-bottom: 6px;
-  color: #201713;
   font-size: 1.02em;
+}
+
+.home-update-copy strong a {
+  color: #201713;
+  text-decoration: none;
+}
+
+.home-update-copy strong a:hover {
+  color: #9d4c1f;
 }
 
 .home-update p a {

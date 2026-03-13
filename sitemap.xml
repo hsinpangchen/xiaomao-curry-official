@@ -31,6 +31,16 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://xiaomao.com.tw/news/</loc>
+  <lastmod>2026-03-13T00:00:00+08:00</lastmod>
+  <priority>0.72</priority>
+</url>
+<url>
+  <loc>https://xiaomao.com.tw/faq.html</loc>
+  <lastmod>2026-03-13T00:00:00+08:00</lastmod>
+  <priority>0.72</priority>
+</url>
+<url>
   <loc>https://xiaomao.com.tw/careers.html</loc>
   <lastmod>2026-02-01T00:00:00+08:00</lastmod>
   <priority>0.80</priority>
@@ -49,5 +59,20 @@
   <loc>https://xiaomao.com.tw/blog/ios-engineer-sells-curry-rice/</loc>
   <lastmod>2018-09-17T00:00:00+08:00</lastmod>
   <priority>0.72</priority>
+</url>
+<url>
+  <loc>https://xiaomao.com.tw/news/hours-update/</loc>
+  <lastmod>2026-02-01T00:00:00+08:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xiaomao.com.tw/news/curry-mayonnaise-pork-bowl/</loc>
+  <lastmod>2023-10-12T00:00:00+08:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xiaomao.com.tw/news/hokkaido-salmon-white-curry/</loc>
+  <lastmod>2021-11-07T00:00:00+08:00</lastmod>
+  <priority>0.64</priority>
 </url>
 </urlset>

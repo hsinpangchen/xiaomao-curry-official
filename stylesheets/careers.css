@@ -1,0 +1,242 @@
+.careers-page {
+  padding: 36px 20px 80px;
+  background:
+    radial-gradient(circle at top right, rgba(255, 208, 171, 0.34), transparent 24%),
+    linear-gradient(180deg, #fffdf9 0%, #f7efe7 100%);
+}
+
+.careers-shell {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.careers-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: 28px;
+  align-items: stretch;
+  margin-bottom: 28px;
+}
+
+.careers-hero-copy,
+.careers-hero-visual,
+.careers-section,
+.careers-role,
+.careers-process {
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.84);
+  border: 1px solid rgba(224, 209, 195, 0.92);
+  box-shadow: 0 20px 42px rgba(93, 55, 31, 0.07);
+}
+
+.careers-hero-copy,
+.careers-section,
+.careers-process {
+  padding: 34px;
+}
+
+.careers-kicker,
+.careers-section-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 14px;
+  color: #9d4c1f;
+  font-size: 0.82em;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+.careers-kicker::before,
+.careers-section-kicker::before {
+  content: "";
+  width: 28px;
+  height: 1px;
+  background: rgba(157, 76, 31, 0.42);
+}
+
+.careers-hero-copy h1,
+.careers-section h2,
+.careers-process h2 {
+  margin: 0 0 16px;
+  color: #201713;
+  line-height: 1.15;
+}
+
+.careers-hero-copy h1 {
+  font-size: 3em;
+  letter-spacing: -0.05em;
+}
+
+.careers-hero-copy p,
+.careers-section-intro,
+.careers-process ol,
+.careers-role-summary,
+.careers-role li,
+.careers-fact dd {
+  color: #5f5046;
+  line-height: 1.9em;
+}
+
+.careers-hero-note {
+  margin-top: 18px;
+  font-size: 0.94em;
+}
+
+.careers-hero-actions {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.careers-primary-link,
+.careers-secondary-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.careers-primary-link {
+  background: #231a16;
+  color: #fff;
+}
+
+.careers-secondary-link {
+  color: #231a16;
+  background: rgba(255, 255, 255, 0.58);
+  border: 1px solid rgba(126, 100, 82, 0.26);
+}
+
+.careers-hero-visual {
+  overflow: hidden;
+}
+
+.careers-hero-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.careers-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.88fr);
+  gap: 28px;
+  margin-bottom: 28px;
+}
+
+.careers-reasons-list,
+.careers-roles-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.careers-reason,
+.careers-role,
+.careers-fact {
+  padding: 22px 24px;
+  border-radius: 24px;
+  background: #fff8f2;
+  border: 1px solid rgba(224, 209, 195, 0.92);
+}
+
+.careers-role h3 {
+  margin: 0 0 10px;
+  color: #201713;
+  font-size: 1.34em;
+}
+
+.careers-role-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 12px;
+}
+
+.careers-role-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: #f5e8dc;
+  color: #6d5545;
+  font-size: 0.86em;
+  font-weight: 700;
+}
+
+.careers-role-summary {
+  margin: 0 0 14px;
+}
+
+.careers-role ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.careers-facts {
+  display: grid;
+  gap: 14px;
+}
+
+.careers-fact dt {
+  margin: 0 0 8px;
+  color: #9d4c1f;
+  font-size: 0.82em;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.careers-fact dd {
+  margin: 0;
+}
+
+.careers-process ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.careers-process li + li {
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 980px) {
+  .careers-hero,
+  .careers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .careers-hero-visual {
+    min-height: 320px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .careers-page {
+    padding: 28px 16px 60px;
+  }
+
+  .careers-hero-copy,
+  .careers-section,
+  .careers-process {
+    padding: 24px 20px;
+    border-radius: 24px;
+  }
+
+  .careers-hero-copy h1 {
+    font-size: 2.2em;
+  }
+
+  .careers-reason,
+  .careers-role,
+  .careers-fact {
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
