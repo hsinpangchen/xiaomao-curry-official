@@ -60,6 +60,44 @@
   padding: 0 20px;
 }
 
+#delivery ul {
+  margin: 16px 20px;
+  padding-left: 20px;
+}
+
+#delivery li {
+  margin-bottom: 10px;
+}
+
+.delivery-line-card {
+  margin: 24px 20px;
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+}
+
+.delivery-line-card img {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+#delivery_notes {
+  margin: 36px 0;
+  text-align: center;
+}
+
+#delivery_notes h2,
+#delivery_notes p {
+  padding: 0 20px;
+}
+
+#delivery_notes p {
+  line-height: 1.8em;
+}
+
 #business_customer {
   margin: 30px 0;
   text-align: center;
