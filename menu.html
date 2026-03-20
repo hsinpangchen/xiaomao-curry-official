@@ -22,96 +22,134 @@
     <meta name="twitter:description" content="菜單已移動至承德店頁面。地址 103臺北市大同區承德路一段24巷18號，電話 02-2559-8081。">
     <meta name="twitter:image" content="https://xiaomao.com.tw/images/xiaomao_logo.png">
       <meta http-equiv="refresh" content="0; url=/menu2.html">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180-precomposed.png?v=1773742568">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png?v=1773742568">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png?v=1773742568">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png?v=1773742568">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png?v=1773742568">
-    <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png?v=1773742568">
-    <link rel="shortcut icon" href="/favicon.png?v=1773742568">
-    <link rel="icon" type="image/ico" href="/favicon.ico?v=1773742568">
-    <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css"> -->
-    <link href='https://fonts.googleapis.com/css?family=Catamaran:400,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180-precomposed.png?v=1773991856">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png?v=1773991856">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png?v=1773991856">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png?v=1773991856">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png?v=1773991856">
+    <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png?v=1773991856">
+    <link rel="shortcut icon" href="/favicon.png?v=1773991856">
+    <link rel="icon" type="image/ico" href="/favicon.ico?v=1773991856">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;800&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
+      <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
     <link href="/stylesheets/base.css" rel="stylesheet" />
-    <link href="/stylesheets/legacy-pages.css" rel="stylesheet" />
-    <link href="/stylesheets/home.css" rel="stylesheet" />
-    <link href="/stylesheets/menu.css" rel="stylesheet" />
     <link href="/stylesheets/header.css" rel="stylesheet" />
     <link href="/stylesheets/footer.css" rel="stylesheet" />
-    <link href="/stylesheets/social.css" rel="stylesheet" />
-    <link href="/stylesheets/blog.css" rel="stylesheet" />
-    <link href="/stylesheets/news.css" rel="stylesheet" />
-    <link href="/stylesheets/faq.css" rel="stylesheet" />
-    <link href="/stylesheets/careers.css" rel="stylesheet" />
+      <link href="/stylesheets/legacy-pages.css" rel="stylesheet" />
     <script src="/javascripts/site.js"></script>
 
 
-    <!-- Facebook Pixel Code -->
     <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '664981294013454');
-    fbq('track', 'PageView');
+      function loadThirdPartyScript(src, onload) {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = src;
+        if (typeof onload === 'function') {
+          script.onload = onload;
+        }
+        document.head.appendChild(script);
+      }
+
+      function afterPageSettles(callback) {
+        var run = function() {
+          if ('requestIdleCallback' in window) {
+            window.requestIdleCallback(callback, { timeout: 1500 });
+            return;
+          }
+
+          window.setTimeout(callback, 1);
+        };
+
+        if (document.readyState === 'complete') {
+          run();
+          return;
+        }
+
+        window.addEventListener('load', run, { once: true });
+      }
+
+      !function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+
+        afterPageSettles(function() {
+          t = b.createElement(e);
+          t.async = !0;
+          t.src = v;
+          s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s);
+        });
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', '664981294013454');
+      fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=664981294013454&ev=PageView&noscript=1"
     /></noscript>
-    <!-- End Facebook Pixel Code -->
-
 
     <script>
-    window.addEventListener('load', function(event) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+
+      gtag('js', new Date());
+      gtag('config', 'G-8NYHTSSKY3');
+      gtag('config', 'AW-11059841364');
+
+      afterPageSettles(function() {
+        loadThirdPartyScript('https://www.googletagmanager.com/gtag/js?id=AW-11059841364');
+      });
+
+      window.addEventListener('load', function() {
         document.querySelectorAll('a[href*="tel"]').forEach(function(e) {
-            e.addEventListener('click', function() {
-                gtag('event', 'conversion', {
-                    'send_to': 'AW-11059841364/y7JpCNjs65sYENSS35kp'
-                });
+          e.addEventListener('click', function() {
+            gtag('event', 'conversion', {
+              'send_to': 'AW-11059841364/y7JpCNjs65sYENSS35kp'
             });
+          });
         });
-    });
+      });
     </script>
 
     <script type="text/javascript">
       function call_phone_number(){
         fbq('track', 'Contact', {});
-        //gtag_report_conversion('tel:0225598081')
       }
     </script>
 
     <script>
-      !function(){
-        var d=function d(a) {
-          for(var e=arguments.length,n=new Array(e>1?e-1:0),i=1;i<e;i++)
-          n[i-1]=arguments[i];
-          d.queue.push([a].concat(n))
+      !function() {
+        var d = function d(a) {
+          for (var e = arguments.length, n = new Array(e > 1 ? e - 1 : 0), i = 1; i < e; i++) {
+            n[i - 1] = arguments[i];
+          }
+          d.queue.push([a].concat(n));
         };
-        d.queue=[],window.dadk=window.dadk||d;
-        var a=document.createElement("script");
-        a.src="undefined"!=typeof URLSearchParams?"https://unpkg.com/@dcard/web-ad-tracking-sdk/build/dadk.iife.js":"https://unpkg.com/@dcard/web-ad-tracking-sdk/build/outdated-dadk.iife.js",
-        document.head.appendChild(a),
-        window.dadk("init", "amU4_U6cu8H3lJm2S7Q7y"), window.dadk("track", "PageView", {url:window.location.href})}();
-    </script>
 
+        d.queue = [];
+        window.dadk = window.dadk || d;
 
-<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11059841364"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        afterPageSettles(function() {
+          loadThirdPartyScript(
+            typeof URLSearchParams !== 'undefined'
+              ? 'https://unpkg.com/@dcard/web-ad-tracking-sdk/build/dadk.iife.js'
+              : 'https://unpkg.com/@dcard/web-ad-tracking-sdk/build/outdated-dadk.iife.js'
+          );
+        });
 
-      gtag('config', 'G-8NYHTSSKY3');
-      gtag('config', 'AW-11059841364');
+        window.dadk('init', 'amU4_U6cu8H3lJm2S7Q7y');
+        window.dadk('track', 'PageView', { url: window.location.href });
+      }();
     </script>
     <script type="application/ld+json">
       {
@@ -230,10 +268,10 @@
       <a href="/blog/" class="site-footer-pill">看文章</a>
       <div class="site-footer-socials">
         <a href="https://www.instagram.com/xiaomao_curry" class="site-footer-social" target="_blank" rel="noopener noreferrer" aria-label="Instagram" data-track-event="social_click" data-track-destination="instagram" data-track-label="footer_instagram">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <span class="site-footer-social-badge" data-network="instagram" aria-hidden="true">IG</span>
         </a>
         <a href="https://www.facebook.com/xiaomaoCurry" class="site-footer-social" target="_blank" rel="noopener noreferrer" aria-label="Facebook" data-track-event="social_click" data-track-destination="facebook" data-track-label="footer_facebook">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <span class="site-footer-social-badge" data-network="facebook" aria-hidden="true">FB</span>
         </a>
       </div>
     </div>

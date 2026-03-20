@@ -43,36 +43,28 @@
   font-size: 0.9em;
 }
 
-.social-icon i {
+.social-icon-badge {
   width: 24px;
   height: 24px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: #fff;
-  padding: 4px;
-}
-
-.social-icon-text {
-  width: 24px;
-  height: 24px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: #4f2f7f;
   color: #fff;
   font-size: 0.8em;
   font-weight: 800;
 }
 
-.social-icon .fa-instagram {
-  background: #125688;
+.social-icon-badge[data-network="instagram"] {
+  background: linear-gradient(135deg, #f58529 0%, #dd2a7b 55%, #8134af 100%);
 }
 
-.social-icon .fa-facebook {
+.social-icon-badge[data-network="facebook"] {
   background: #3b5998;
+}
+
+.social-icon-badge[data-network="dcard"] {
+  background: #4f2f7f;
 }
 
 .social-icon:hover {
