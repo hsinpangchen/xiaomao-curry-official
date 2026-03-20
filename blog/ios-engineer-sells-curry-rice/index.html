@@ -21,14 +21,14 @@
     <meta name="twitter:title" content="iOS工程師賣咖哩飯之路｜笑貓咖哩">
     <meta name="twitter:description" content="從 Java、Rails、iOS，到真的跑去賣咖哩飯。這不是勵志雞湯，比較像是一段工程師對工作、創業和現實的誠實筆記。">
     <meta name="twitter:image" content="https://xiaomao.com.tw/images/cover/20240530.jpg">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180-precomposed.png?v=1773991856">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png?v=1773991856">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png?v=1773991856">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png?v=1773991856">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png?v=1773991856">
-    <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png?v=1773991856">
-    <link rel="shortcut icon" href="/favicon.png?v=1773991856">
-    <link rel="icon" type="image/ico" href="/favicon.ico?v=1773991856">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180-precomposed.png?v=1773993151">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png?v=1773993151">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png?v=1773993151">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png?v=1773993151">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png?v=1773993151">
+    <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png?v=1773993151">
+    <link rel="shortcut icon" href="/favicon.png?v=1773993151">
+    <link rel="icon" type="image/ico" href="/favicon.ico?v=1773993151">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;800&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
@@ -68,34 +68,6 @@
         window.addEventListener('load', run, { once: true });
       }
 
-      !function(f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function() {
-          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-
-        afterPageSettles(function() {
-          t = b.createElement(e);
-          t.async = !0;
-          t.src = v;
-          s = b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t, s);
-        });
-      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-
-      fbq('init', '664981294013454');
-      fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=664981294013454&ev=PageView&noscript=1"
-    /></noscript>
-
-    <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
 
@@ -118,35 +90,6 @@
       });
     </script>
 
-    <script type="text/javascript">
-      function call_phone_number(){
-        fbq('track', 'Contact', {});
-      }
-    </script>
-
-    <script>
-      !function() {
-        var d = function d(a) {
-          for (var e = arguments.length, n = new Array(e > 1 ? e - 1 : 0), i = 1; i < e; i++) {
-            n[i - 1] = arguments[i];
-          }
-          d.queue.push([a].concat(n));
-        };
-
-        d.queue = [];
-        window.dadk = window.dadk || d;
-
-        afterPageSettles(function() {
-          loadThirdPartyScript(
-            typeof URLSearchParams !== 'undefined'
-              ? 'https://unpkg.com/@dcard/web-ad-tracking-sdk/build/dadk.iife.js'
-              : 'https://unpkg.com/@dcard/web-ad-tracking-sdk/build/outdated-dadk.iife.js'
-          );
-        });
-
-        window.dadk('init', 'amU4_U6cu8H3lJm2S7Q7y');
-        window.dadk('track', 'PageView', { url: window.location.href });
-      }();
     </script>
     <script type="application/ld+json">
       {
