@@ -10,7 +10,7 @@ textarea,
 body {
   background-color: #ffffff;
   color: #333333;
-  font-family: "Roboto", "Catamaran", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 a {
